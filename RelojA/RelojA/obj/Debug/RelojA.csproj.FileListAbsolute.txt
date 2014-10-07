@@ -1,1 +1,6 @@
 C:\Users\manolo\Documents\GitHub\RelojGit\RelojA\RelojA\bin\Debug\RelojA.exe.config
+C:\Users\manolo\Documents\GitHub\RelojGit\RelojA\RelojA\bin\Debug\RelojA.exe
+C:\Users\manolo\Documents\GitHub\RelojGit\RelojA\RelojA\bin\Debug\RelojA.pdb
+C:\Users\manolo\Documents\GitHub\RelojGit\RelojA\RelojA\obj\Debug\RelojA.csprojResolveAssemblyReference.cache
+C:\Users\manolo\Documents\GitHub\RelojGit\RelojA\RelojA\obj\Debug\RelojA.exe
+C:\Users\manolo\Documents\GitHub\RelojGit\RelojA\RelojA\obj\Debug\RelojA.pdb
