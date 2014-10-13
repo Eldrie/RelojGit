@@ -11,29 +11,32 @@ namespace RelojA
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Ingrese los numeros");
+            Console.WriteLine("Ingrese un numero");
+           
             string numeros = (Console.ReadLine());
-            char c1 = numeros[0];
-            char c2 = numeros[1];
-            char c3 = numeros[2];
-            char c4 = numeros[3];
-            if (c1 == '0')
+            string a1 = "", a2 = "", a3 = "", a4 = "", a5 = "";
             
-                string a1 = '#### ';
-                string a2 = "#  # ";
-                string a3 = "#  # ";
-                string a4 = "#  # ";
-                string a5 = "#### ";
-            
-                Console.WriteLine(numeros);
-                Console.Write(a1);
+                for (int i = 0; i <= numeros.Length - 1; i++)
+                {
+                    char c = numeros[i];
+                    if (c == '0') 
+                    {
+                        a1 += "#### ";
+                        a2 += "#  # ";
+                        a3 += "#  # ";
+                        a4 += "#  # ";
+                        a5 += "#### ";
+                    }
 
-
-                Console.ReadLine();
-
-
+                }
+                Console.WriteLine(a1);
+                Console.WriteLine(a2);
+                Console.WriteLine(a3);
+                Console.WriteLine(a4);
+                Console.WriteLine(a5);
+                Console.ReadLine();            
             
         }
+
     }
-   
 }
